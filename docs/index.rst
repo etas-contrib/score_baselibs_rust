@@ -1,6 +1,6 @@
 ..
    # *******************************************************************************
-   # Copyright (c) 2024 Contributors to the Eclipse Foundation
+   # Copyright (c) 2025 Contributors to the Eclipse Foundation
    #
    # See the NOTICE file(s) distributed with this work for additional
    # information regarding copyright ownership.
@@ -12,10 +12,10 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-Module Template Documentation
+Base Libraries - Rust
 =============================
 
-This documentation describes the structure, usage and configuration of the Bazel-based C++/Rust module template.
+This documentation describes the Rust base libraries.
 
 .. contents:: Table of Contents
    :depth: 2
@@ -30,14 +30,7 @@ It integrates best practices for build, test, CI/CD and documentation.
 Requirements
 ------------
 
-.. stkh_req:: Example Functional Requirement
-   :id: stkh_req__docgen_enabled__example
-   :status: valid
-   :safety: QM
-   :security: YES
-   :reqtype: Functional
-   :rationale: Ensure documentation builds are possible for all modules
-
+- TODO: add requirements once available.
 
 Project Layout
 --------------
@@ -53,7 +46,7 @@ The module template includes the following top-level structure:
 Quick Start
 -----------
 
-To build the module:
+To build the module for host platform:
 
 .. code-block:: bash
 

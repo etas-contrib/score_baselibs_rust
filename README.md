@@ -1,5 +1,6 @@
+# Base Libraries - Rust
 
-# C++ & Rust Bazel Template Repository
+Foundational Rust libraries providing common functionality for S-CORE modules.
 
 This repository serves as a **template** for setting up **C++ and Rust projects** using **Bazel**.
 It provides a **standardized project structure**, ensuring best practices for:
