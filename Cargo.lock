@@ -67,6 +67,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "score_testing_macros"
+version = "0.0.1"
+dependencies = [
+ "quote",
+ "stdout_logger",
+ "syn",
+]
+
+[[package]]
 name = "stdout_logger"
 version = "0.0.1"
 dependencies = [
