@@ -12,7 +12,7 @@
    # SPDX-License-Identifier: Apache-2.0
    # *******************************************************************************
 
-.. _module_documentation:
+.. _baselib_rust_module_documentation:
 
 Module Documents
 ################
@@ -25,3 +25,16 @@ Module Documents
    safety_mgt/index.rst
    verification/module_verification_report.rst
    release/release_note.rst
+
+.. mod:: baselibs_rust
+   :id: mod__baselibs_rust
+   :includes: comp__log_rust
+   :status: valid
+   :safety: ASIL_B
+   :security: YES
+
+   .. needarch::
+      :scale: 50
+      :align: center
+
+      {{ draw_module(need(), needs) }}

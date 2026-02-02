@@ -62,3 +62,14 @@ To run tests:
 .. code-block:: bash
 
    bazel test //tests/...
+
+
+Components
+==========
+
+.. toctree::
+   :titlesonly:
+   :maxdepth: 2
+   :glob:
+
+   ./log_rust/docs/index
