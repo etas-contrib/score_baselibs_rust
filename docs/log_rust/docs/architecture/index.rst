@@ -115,11 +115,6 @@ Dynamic Architecture
 Interfaces
 ----------
 
-.. logic_arc_int:: Logging Rust
-   :id: logic_arc_int__log_rust__logging_rust
-   :security: YES
-   :safety: ASIL_B
-   :status: valid
 
 .. logic_arc_int:: score_logger
    :id: logic_arc_int__log_rust__score_logger
