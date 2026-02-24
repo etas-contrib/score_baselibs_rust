@@ -30,7 +30,7 @@ bazel_dep(name = "score_bazel_platforms", version = "0.0.4")
 bazel_dep(name = "score_docs_as_code", version = "2.0.2")
 git_override(
      module_name = "score_docs_as_code",
-     commit = "8cd9b194921122e345b03aa78d7a421164abaa37",
+     commit = "9132272642711b06a8f3f6e07183506e0f9e4603",
      remote = "https://github.com/etas-contrib/score_docs-as-code.git",
 )
 bazel_dep(name = "score_tooling", version = "1.1.0")
@@ -42,7 +42,7 @@ bazel_dep(name = "score_platform", version = "0.5.1")  # This is main score repo
 
 git_override(
     module_name = "score_platform",
-    commit = "618e84e005aa83363ecba095d8370412bf45c739",
+    commit = "67f07f2382aeddd218d0e091ffe3198c913819a8c",
     remote = "https://github.com/etas-contrib/score_score.git",
 )
 # Toolchains and extensions
