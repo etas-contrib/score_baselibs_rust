@@ -25,12 +25,12 @@ jobs:
       pull-requests: read
     strategy:
       matrix:
-        config: ['arm64-qnx', 'x86_64-qnx']
+        config: ["arm64-qnx", "x86_64-qnx"]
     with:
-      bazel-target: '//src/...'
+      bazel-target: "//src/... -- -//:docs -//:needs_json -//:docs_combo -//:docs_combo_experimental"
       bazel-config: ${{ matrix.config }}
-      credential-helper: 'scripts/internal/qnx_creds.py'
-      environment-name: 'workflow-approval'
+      credential-helper: "scripts/internal/qnx_creds.py"
+      environment-name: "workflow-approval"
     secrets:
       score-qnx-license: ${{ secrets.SCORE_QNX_LICENSE }}
       score-qnx-user: ${{ secrets.SCORE_QNX_USER }}
