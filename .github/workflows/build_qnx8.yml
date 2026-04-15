@@ -27,7 +27,7 @@ jobs:
       matrix:
         config: ["arm64-qnx", "x86_64-qnx"]
     with:
-      bazel-target: "//src/... -- -//:docs -//:needs_json -//:docs_combo -//:docs_combo_experimental"
+      bazel-target: "//src/... -- -//:docs -//:needs_json -//:docs_combo -//:docs_combo_experimental -//:merged_sourcelinks"
       bazel-config: ${{ matrix.config }}
       credential-helper: "scripts/internal/qnx_creds.py"
       environment-name: "workflow-approval"
